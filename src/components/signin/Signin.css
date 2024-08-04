@@ -1,0 +1,67 @@
+.Login {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+#submit {
+    background-color: transparent;
+    color: black;
+}
+#submit:hover {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align:initial;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, button {
+    height: 40px;
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius:15px;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    margin-top: 10px; 
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c387e;
+}
+
+.forgot-password {
+    margin-top: 20px;
+}
+
+a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
